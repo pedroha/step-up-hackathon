@@ -1,0 +1,115 @@
+
+
+.size-24 {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.advice-container {
+  background-color: #ddd;
+  color: #5E5E5E;
+  padding: 0;
+  margin: 0;
+}
+
+  .advice, {
+    margin: 3px 0;
+  }
+
+.advice, .personal-statement, .post-area {
+  padding: 30px 25px;
+}
+
+.profile-image {
+  margin: 0 auto;
+  display: block;
+}
+
+p {
+  margin-bottom: 0;
+  line-height: 1.2em;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.advice-container:hover,   .advice-container:hover h4    {
+  transition: 1s;
+  background-color: #CCC;
+
+
+  color: #FAFAFA;
+  background-color: #B80F52;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+a .fi-social-linkedin {
+  color: #5E5E5E;
+}
+
+a .fi-social-linkedin:hover,
+.advice-container:hover a .fi-social-linkedin {
+  transition: 1s;
+  color: #FAFAFA;        
+}
+
+.quote { font-family:Georgia; font-weight:bold; font-style:italic;font-size:24px;line-height:1.2em;}
+
+.row {
+  margin: 3px 0;
+}
+
+.advice-footer {
+  padding: 10px 25px;
+  color: white;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+}
+  .advice-footer a {
+    color: #B80F52;
+  }
+
+  .advice-footer a:hover {
+    color: #D4135F;
+  }
+
+  .comment-list {
+    color: #5E5E5E;
+    padding: 20px;
+  }
+
+  .comment-list img {
+    margin-top: 10px;
+  }
+
+  .reply {
+    float: right;
+  }
+
+  .content {
+    margin-left: 100px;
+  }
+
+  .comment-list li {
+    padding: 15px;
+    border: 1px dotted #FAFAFA;
+  }
+
+  .post-area {
+    margin: 0 20px;
+    padding: 10px 20px;
+    border: 2px dotted #F5F5F5;
+  }
